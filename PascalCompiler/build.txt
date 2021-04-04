@@ -1,0 +1,66 @@
+
+//  Microsoft (R) .NET Framework IL Disassembler.  Version 4.8.3928.0
+
+
+
+
+// Metadata version: v4.0.30319
+.assembly extern mscorlib
+{
+  .publickeytoken = (B7 7A 5C 56 19 34 E0 89 )                         // .z\V.4..
+  .ver 4:0:0:0
+}
+.assembly build.exe
+{
+  .hash algorithm 0x00008004
+  .ver 0:0:0:0
+}
+.module build.exe
+// MVID: {3E181D1A-E2CF-4921-90B3-D760F43CEDAD}
+.imagebase 0x00400000
+.file alignment 0x00000200
+.stackreserve 0x00100000
+.subsystem 0x0003       // WINDOWS_CUI
+.corflags 0x00000001    //  ILONLY
+// Image base: 0x06A10000
+
+
+// =============== CLASS MEMBERS DECLARATION ===================
+
+.class private auto ansi Build_Build
+       extends [mscorlib]System.Object
+{
+  .method public static void  Main_Main() cil managed
+  {
+    .entrypoint
+    // ê†ß¨•‡ ™Æ§†:       34 (0x22)
+    .maxstack  2
+    .locals init (float64 V_0)
+    IL_0000:  ldc.r8     10.
+    IL_0009:  ldc.i4     0xf
+    IL_000e:  conv.r8
+    IL_000f:  add
+    IL_0010:  ldc.r8     2.5
+    IL_0019:  div
+    IL_001a:  stloc.0
+    IL_001b:  ldloc.0
+    IL_001c:  call       void [mscorlib]System.Console::WriteLine(float64)
+    IL_0021:  ret
+  } // end of method Build_Build::Main_Main
+
+  .method public specialname rtspecialname 
+          instance void  .ctor() cil managed
+  {
+    // ê†ß¨•‡ ™Æ§†:       7 (0x7)
+    .maxstack  2
+    IL_0000:  ldarg.0
+    IL_0001:  call       instance void [mscorlib]System.Object::.ctor()
+    IL_0006:  ret
+  } // end of method Build_Build::.ctor
+
+} // end of class Build_Build
+
+
+// =============================================================
+
+// *********** ÑàáÄëëÖåÅãàêéÇÄçàÖ áÄÇÖêòÖçé ***********************

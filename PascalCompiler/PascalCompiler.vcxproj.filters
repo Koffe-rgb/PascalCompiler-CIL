@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="IoModule">
+      <UniqueIdentifier>{fde3e635-c5d6-40f4-a17f-361b1025ea2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lexer">
+      <UniqueIdentifier>{5f819fb9-86e9-45e8-8617-eefe814ec56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Semancer">
+      <UniqueIdentifier>{73604259-556a-493f-808f-b9a9b93f6667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Syntaxer">
+      <UniqueIdentifier>{f6e0a073-7efd-433f-b366-33b6b5e55df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translator">
+      <UniqueIdentifier>{a0295e7e-98e1-41b2-bcf8-b16d7bb34c7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IoModule.h">
+      <Filter>IoModule</Filter>
+    </ClInclude>
+    <ClInclude Include="Codes.h">
+      <Filter>Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer.h">
+      <Filter>Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="Identifier.h">
+      <Filter>Semancer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scope.h">
+      <Filter>Semancer</Filter>
+    </ClInclude>
+    <ClInclude Include="Semancer.h">
+      <Filter>Semancer</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>Semancer</Filter>
+    </ClInclude>
+    <ClInclude Include="Syntaxer.h">
+      <Filter>Syntaxer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sets.h">
+      <Filter>Syntaxer</Filter>
+    </ClInclude>
+    <ClInclude Include="Translator.h">
+      <Filter>Translator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="IoModule.cpp">
+      <Filter>IoModule</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scope.cpp">
+      <Filter>Semancer</Filter>
+    </ClCompile>
+    <ClCompile Include="Semancer.cpp">
+      <Filter>Semancer</Filter>
+    </ClCompile>
+    <ClCompile Include="Syntaxer.cpp">
+      <Filter>Syntaxer</Filter>
+    </ClCompile>
+    <ClCompile Include="Translator.cpp">
+      <Filter>Translator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="pascal.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="ten_to_two.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="guess_number.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

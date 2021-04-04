@@ -1,0 +1,16 @@
+program ten_to_two;
+var
+  n : integer;
+  i : integer;
+begin
+  writeln('¬ведите 10-чное число:');
+  readln(n);
+  writeln('–езультат:');
+  while not (n = 0) do begin
+    i := n mod 2;
+    writeln(i);
+    n := n div 2;
+  end;
+
+  readln();
+end.

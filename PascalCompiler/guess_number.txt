@@ -1,0 +1,18 @@
+program guess_number;
+var
+  i, j : integer;
+begin
+  writeln('Игра угадай число');
+  readln(i);
+
+  j := 100;
+
+  while not (i = j) do begin
+    if i < j then writeln('Недолет');
+    if i > j then writeln('Перелет');
+    readln(i);
+  end;
+
+  writeln('Попал');
+  readln();
+end.
